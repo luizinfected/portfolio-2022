@@ -1,5 +1,5 @@
 
-import {useState, useEffect} from "react"
+import {useState} from "react"
 import { Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg"
@@ -13,14 +13,7 @@ export const Banner = () => {
     const [delta, setDelta] = useState(200)
     const period = 2000;
 
-    useEffect(() => {
-        let ticker = setTimeout(() => {
-          tick()
-        }, delta)
-        return () => {clearInterval(ticker)}
-    }, [text, delta])
-    
-    const tick = () => {
+    var tick = () => {
         let i = loopNum % toRotate.length;
         let fullText = toRotate[i]
         let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1)
@@ -37,6 +30,16 @@ export const Banner = () => {
             setDelta(500)
         }
     }
+
+    // useEffect(() => {
+        let ticker = setTimeout(() => {
+            tick()
+            clearInterval(ticker)
+
+        }, delta)
+    
+        
+    // }, [text, delta])
 
 
 
