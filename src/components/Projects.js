@@ -18,31 +18,38 @@ export const Projects = () => {
             title: "Naruto Dex",
             description: "Monte seu time ninja!",
             imgUrl: projImg1,
+            link: "https://github.com/luizinfected/narutodex",
         },
         {
             title: "HazorFlix",
             description: "Monte sua lista de filmes para ver depois! ou seus filmes favoritos",
             imgUrl: projImg2,
+            link: "https://github.com/luizinfected/hazorflix",
+
         },
         {
             title: "Usando Fetch no React",
             description: "Projeto de blog",
             imgUrl: projImg3,
+            link: "https://github.com/luizinfected/ReactRoutesv2",
         },
         {
             title: "Site Dinâmico",
             description: "Usando PHP, controlando as variáveis",
             imgUrl: projImg4,
+            link: "https://github.com/luizinfected/templateSitePHPdynamic",
         },
         {
             title: "Sistema de chamados em PHP",
             description: "Projeto de sistema que fiz para o quartel que servi em 2021",
             imgUrl: projImg5,
+            link: "https://github.com/luizinfected/STI-Chamados-PHP"
         },
         {
             title: "React-Routes",
             description: "Descobrindo e mostrando a biblioteca",
             imgUrl: projImg6,
+            link: "https://github.com/luizinfected/React-Router-Navigator",
         },
     ];
     return (

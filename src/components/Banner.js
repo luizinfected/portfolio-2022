@@ -47,11 +47,11 @@ export const Banner = () => {
         <section className="banner" id="home">
             <Container>
                 <Row className="align-items-center">
-                    <Col xs={12} md={7} xl={7}>
+                <Col xs={12} md={7} xl={7}>
                         <span className="tagline">Bem vindo ao meu Portfólio </span>
                         <h1>{`Olá! sou o Luiz`} <span className="wrap">{text}</span></h1>
                         <p>Tenho 19 anos, focado em desenvolvimento Web, estou sempre a procura de observar e melhorar o que faço, absorvendo conteúdos e evoluindo. Comecei a programar em agosto do ano de 2021, hoje tenho conhecimento nessas linguagens: <strong>PHP</strong>, <strong> React</strong>, <strong>Javascript</strong>, <strong>HTML5</strong>, <strong>CSS</strong>, <strong>Jquery</strong>, e evoluindo para fullstrack.. </p>
-                        <a class="no-a" href="https://github.com/luizinfected"><button>Vamos conectar? <ArrowRightCircle size={25} /></button></a>
+                        <a class="no-a" href="luiz.pdf" target="_blank" alt="Currículo"><button>Currículo <ArrowRightCircle size={25} /></button></a>
                     </Col>
 
                     <Col xs={12} md={7} xl={5}>
