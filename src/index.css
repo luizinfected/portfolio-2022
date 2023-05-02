@@ -339,9 +339,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto;
   position: relative;
 }
+.skill-slider .item{
+  width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .skill-slider .item img {
   width: 50%;
-  margin: 0 auto 15px auto;
+  margin: auto auto;
 }
 .background-image-left {
   top: 28%;
@@ -490,6 +498,30 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+.button-projects{
+  padding: 1em;
+  background-color: #fff;
+  border: 5px solid #AA367C;
+  border-radius: 10px;
+  color: #000;
+  margin: 1em;
+  transition: .5s all;
+}
+.button-projects:hover{
+  background-color: #222;
+  color: #fff;
+  border: 5px solid #4A2FBD;
+  transition: .5s all;
+}
+.button-projects a{
+  color: #000;
+}
+.button-projects:hover a{
+  color: #fff;
+}
+.text-center{
+  text-align: center;
+}
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);

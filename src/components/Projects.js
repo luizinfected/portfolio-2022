@@ -4,9 +4,9 @@ import Nav from 'react-bootstrap/Nav';
 import projImg1 from "../assets/img/proj-01.jpg";
 import projImg2 from "../assets/img/proj-02.jpg";
 import projImg3 from "../assets/img/proj-03.jpg";
-import projImg4 from "../assets/img/proj-04.jpg";
+import projImg4 from "../assets/img/pro22.PNG";
 import projImg5 from "../assets/img/proj-05.jpg";
-import projImg6 from "../assets/img/proj-06.jpg";
+import projImg6 from "../assets/img/pro11.PNG";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 // import 'animate.css';
 
@@ -15,10 +15,16 @@ export const Projects = () => {
 
     const projects = [
         {
-            title: "Naruto Dex",
-            description: "Monte seu time ninja!",
-            imgUrl: projImg1,
-            link: "https://github.com/luizinfected/narutodex",
+            title: "Luiz MiniBlog",
+            description: "Sitema de Blog, usando React & Firebase, uma rede social usável.",
+            imgUrl: projImg6,
+            link: "https://github.com/luizinfected/miniblog",
+        },
+        {
+            title: "Rick and Morty Characters",
+            description: "Consumindo a API do Rick and Morty",
+            imgUrl: projImg4,
+            link: "https://luiz-react-morty.netlify.app/",
         },
         {
             title: "HazorFlix",
@@ -28,29 +34,26 @@ export const Projects = () => {
 
         },
         {
+            title: "Naruto Dex",
+            description: "Monte seu time ninja!",
+            imgUrl: projImg1,
+            link: "https://github.com/luizinfected/narutodex",
+        },
+
+        {
             title: "Usando Fetch no React",
             description: "Projeto de blog",
             imgUrl: projImg3,
             link: "https://github.com/luizinfected/ReactRoutesv2",
         },
-        {
-            title: "Site Dinâmico",
-            description: "Usando PHP, controlando as variáveis",
-            imgUrl: projImg4,
-            link: "https://github.com/luizinfected/templateSitePHPdynamic",
-        },
+
         {
             title: "Sistema de chamados em PHP",
             description: "Projeto de sistema que fiz para o quartel que servi em 2021",
             imgUrl: projImg5,
             link: "https://github.com/luizinfected/STI-Chamados-PHP"
         },
-        {
-            title: "React-Routes",
-            description: "Descobrindo e mostrando a biblioteca",
-            imgUrl: projImg6,
-            link: "https://github.com/luizinfected/React-Router-Navigator",
-        },
+
     ];
     return (
         <section id="projetos">
@@ -83,7 +86,12 @@ export const Projects = () => {
                                                 )
                                             })
                                         }
+
                                     </Row>
+                                    <div className="text-center">
+                                        <p>Outros projetos... <button className="button-projects"><a href="https://github.com/luizinfected"><span>Meu GitHub</span></a></button></p>
+
+                                    </div>
 
                                 </Tab.Pane>
 
