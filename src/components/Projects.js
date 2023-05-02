@@ -18,7 +18,7 @@ export const Projects = () => {
             title: "Luiz MiniBlog",
             description: "Sitema de Blog, usando React & Firebase, uma rede social usável.",
             imgUrl: projImg6,
-            link: "https://github.com/luizinfected/miniblog",
+            link: "https://luiz-miniblog.netlify.app/",
         },
         {
             title: "Rick and Morty Characters",
