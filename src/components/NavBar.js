@@ -33,7 +33,8 @@ const NavBar = () => {
           <Nav className="me-auto">
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}   >Home</Nav.Link>
             <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skill')} >Skills</Nav.Link>
-            <Nav.Link href="#projetos" className={activeLink === 'projectos' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projetos')} >Projetos</Nav.Link>
+            <Nav.Link href="#projetos" className={activeLink === 'projetos' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projetos')} >Projetos</Nav.Link>
+            <Nav.Link href="#connect" className={activeLink === 'contato' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contato')} >Contato</Nav.Link>
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
