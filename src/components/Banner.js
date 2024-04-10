@@ -41,7 +41,7 @@ export const Banner = () => {
 
     // }, [text, delta])
 
-    const stacks = ['React', 'Javascript', 'PHP', 'HTML5', 'CSS3', 'Jquery', 'SQL', 'Firebase', 'Git']
+    const stacks = ['React', 'NextJS', 'NodeJS', 'Javascript', 'PHP', 'Python', 'HTML5', 'CSS3', 'Jquery', 'SQL', 'Firebase', 'Git']
 
     return (
         <section className="banner" id="home">
@@ -50,7 +50,7 @@ export const Banner = () => {
                     <Col xs={12} md={7} xl={7}>
                         <span className="tagline">Bem vindo ao meu Portfólio!</span>
                         <h1>{`Olá! sou o Luiz`} <span className="wrap">{text}</span></h1>
-                        <p>Tenho 19 anos, focado em desenvolvimento Web, estou sempre a procura de observar e melhorar o que faço, absorvendo conteúdos e evoluindo. Comecei a programar em agosto do ano de 2021, hoje tenho conhecimento nessas tecnologias:{stacks.map(stack => (<strong>{stack}, </strong> ))} e evoluindo cada vez mais para um fullstack..</p>
+                        <p>Tenho 21 anos, focado em desenvolvimento Web, estou sempre a procura de observar e melhorar o que faço, absorvendo conteúdos e evoluindo. Comecei a programar em agosto do ano de 2021, hoje tenho conhecimento nessas tecnologias:{stacks.map(stack => (<strong>{stack}, </strong> ))}</p>
                         <a class="no-a" href="luiz.pdf" target="_blank" alt="Currículo"><button>Currículo <ArrowRightCircle size={25} /></button></a>
                     </Col>
 
